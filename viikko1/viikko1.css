@@ -8,14 +8,13 @@ font-family: 'Roboto', sans-serif;*/
 }
 html {
 	background: #eeeee4;
-	padding: 20px;
 }
 
 body {
 	position: relative;
 	background: #b3ddff;
 	max-width: 700px;
-	padding:  30px;
+	padding: 30px;
 	margin: auto;
 	font-family: 'Source Code Pro', monospace;
 	font-size: 16px;
@@ -47,34 +46,30 @@ img{
 }
 nav{
 	display: flex;
-	width: 100%;
-	border: 1px solid black;
 }
 a.link-btn{
 	background: #2f62b4;
 	border: 1px solid black;
-	margin: 12px 6px;
+	margin: 12px 2px;
 	padding:4px;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	color:#eeeee4;
+	text-align: center;
 }
-nav a.link-btn-back {
-float: right;
-}
+
+
 a.link-btn-back{
 	background: #000000;
 	padding: 3% 2%;
+	font-size: 1.7rem;
 	color:#eeeee4;
+	float: right;
+	text-align: center;
+
 }
 
 
-@media only screen and (min-width: 600px) {
-	body{
-		max-width: 600px;
-	}
-}
-@media only screen and (max-width: 900px) {
-	body{
-		max-width: 700px;
-	}
-}
+
+
+
+
