@@ -13,7 +13,7 @@ html {
 body {
 	position: relative;
 	background: #b3ddff;
-	max-width: 700px;
+	max-width: 800px;
 	padding: 30px;
 	margin: auto;
 	font-family: 'Source Code Pro', monospace;
@@ -26,14 +26,20 @@ h1, h2, h3, h4, h5, h6, strong, header{font-family: 'Roboto', sans-serif; margin
 
 h1 { font-size: 50px; line-height: 1.25; }
 
-h2 { margin-top: 40px;
+h2 {
+	margin-top: 40px;
 	border-top-style: dashed;
 	border-top-width: 2px;
-	padding-top: 10px;
+	padding-top: 2rem;
 	line-height: 1.4;
 	font-size: 28px
 }
-header{
+
+p {
+	padding: 2%;
+}
+
+header {
 	font-size: 2rem;
 }
 img {max-width:100%; margin: 10px}
@@ -58,18 +64,25 @@ a.link-btn{
 }
 
 
-a.link-btn-back{
-	background: #000000;
-	padding: 3% 2%;
-	font-size: 1.7rem;
-	color:#eeeee4;
-	float: right;
-	text-align: center;
-
+figure {
+	margin: 3rem 0;
+	border-top: 2px black dashed;
+	padding: 2rem 0 0 0;
 }
 
+td, th {
+	padding: 5px;
+}
 
+section {
+	height: 100%;
+	padding: 1% 5%;
+	background: #eeeee4;
+}
 
+#exer5 {
+	min-height: 30vh;
+}
 
 
 
