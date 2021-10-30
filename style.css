@@ -8,14 +8,13 @@ font-family: 'Roboto', sans-serif;*/
 }
 html {
 	background: #eeeee4;
-	padding: 10px;
 }
 
 body {
 	position: relative;
 	background: #b3ddff;
-	max-width: 800px;
-	padding: 20px 40px;
+	max-width: 700px;
+	padding: 30px;
 	margin: auto;
 	font-family: 'Source Code Pro', monospace;
 	font-size: 16px;
@@ -37,7 +36,6 @@ h2 { margin-top: 40px;
 header{
 	font-size: 2rem;
 }
-img {max-width:100%; margin: 10px}
 li, ul {margin-top: 10px;}
 
 img{
@@ -47,7 +45,6 @@ img{
 }
 nav{
 	display: flex;
-	width: 100%;
 	border: 1px solid black;
 }
 

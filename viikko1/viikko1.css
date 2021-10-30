@@ -8,19 +8,18 @@ font-family: 'Roboto', sans-serif;*/
 }
 html {
 	background: #eeeee4;
+	width: 100%;
 }
-
 body {
 	position: relative;
 	background: #b3ddff;
-	max-width: 800px;
-	padding: 30px;
+	max-width: 700px;
+	width: 100%;
 	margin: auto;
 	font-family: 'Source Code Pro', monospace;
 	font-size: 16px;
 	line-height: 1.5;
 }
-
 h1, h2, h3, h4, h5, h6, strong, header{font-family: 'Roboto', sans-serif; margin: 20px 0 10px 0; }
 
 
@@ -42,32 +41,31 @@ p {
 header {
 	font-size: 2rem;
 }
-img {max-width:100%; margin: 10px}
 li, ul {margin-top: 10px;}
 
-img{
+img {
+	max-width: 100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-nav{
+nav {
 	display: flex;
+	max-width: 100%;
 }
-a.link-btn{
+a.link-btn {
 	background: #2f62b4;
 	border: 1px solid black;
 	margin: 12px 2px;
-	padding:4px;
-	font-size: 1.4rem;
-	color:#eeeee4;
+	font-size: 80%;
+	color: #eeeee4;
 	text-align: center;
 }
 
 
 figure {
-	margin: 3rem 0;
 	border-top: 2px black dashed;
-	padding: 2rem 0 0 0;
+	padding: 3rem 0 0 0;
 }
 
 td, th {
@@ -76,13 +74,20 @@ td, th {
 
 section {
 	height: 100%;
-	padding: 1% 5%;
-	background: #eeeee4;
+	padding: 1% 2%;
 }
 
 #exer5 {
 	min-height: 30vh;
 }
 
+table {
+	width: 100%;
+}
 
-
+td, th {
+	max-width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
